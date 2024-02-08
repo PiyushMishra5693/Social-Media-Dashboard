@@ -1,0 +1,148 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+
+    background-color:hsl(230,16.67%,14.12%);
+}
+
+
+h1{
+    font-size: 2.3rem;
+    font-weight: bold;
+    color: white;
+    font-family: "Inter", sans-serif;
+}
+
+.Header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Header-top{
+    
+    margin-left:180px;
+    margin-top: 70px;
+}
+
+.Followers{
+    font-size:1.6rem;
+    color: gray;
+}
+
+.Header-toggel{
+    display: flex;
+    margin-top: 100px;
+    margin-right: 230px;
+}
+
+.Toggel{
+     font-family: "Inter", sans-serif;
+     font-size: 22px;
+     margin-top: 10px;
+     color: rgb(242, 243, 247)
+}
+
+.Toggel-button{
+    background-color: white;
+    margin-left: 5px;
+    height: 47px;
+    width: 90px;
+    border-radius:100px;
+}
+
+.Toggel-button::before{
+
+    height:100px ;
+    width:100px;
+}
+
+.Cards{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 170px;
+}
+
+.Cards .facebook{
+
+    margin: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 18rem;
+    width: 300px;
+    background-color: rgb(37,42,65);
+    border-top: 5px solid #178ff5;
+}
+.Cards .twitter{
+
+    margin: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 18rem;
+    width: 300px;
+    background-color: rgb(37,42,65);;
+    border-top: 5px solid #178ff5
+}
+.Cards .instagram{
+
+    margin: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 18rem;
+    width: 300px;
+    background-color: rgb(37,42,65);;
+    border-top: 5px  solid  #df4996;
+
+}
+.Cards .youtube{
+
+    margin: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 18rem;
+    width: 300px;
+    background-color: rgb(37,42,65);
+    border-top: 5px solid #c4032a;
+}
+
+
+.Mini-card{
+    margin-top: 50px;
+    margin-left: 170px;
+}
+
+.Cards-stats{
+    margin: 16px;
+    width: 300px;
+    height: 200px;
+    background-color:rgb(37,42,65);
+
+}
+
+.Mini-card1{
+    display: flex;
+}
+
+.Mini-card2{
+    display: flex;
+}
+
+@media screen and (max-width: 720px) {
+    
+    .Cards{
+        flex-direction: column;
+    }
+    .Mini-card1{
+        flex-direction: column;
+    }
+    
+    .Mini-card2{
+        flex-direction: column;
+    }
+}
